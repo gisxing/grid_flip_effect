@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFDE92441844AF4B001CF83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE92431844AF4B001CF83A /* Foundation.framework */; };
+		DFDE92461844AF4B001CF83A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE92451844AF4B001CF83A /* CoreGraphics.framework */; };
+		DFDE92481844AF4B001CF83A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE92471844AF4B001CF83A /* UIKit.framework */; };
+		DFDE924E1844AF4B001CF83A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFDE924C1844AF4B001CF83A /* InfoPlist.strings */; };
+		DFDE92501844AF4B001CF83A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDE924F1844AF4B001CF83A /* main.m */; };
+		DFDE92541844AF4B001CF83A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDE92531844AF4B001CF83A /* AppDelegate.m */; };
+		DFDE92571844AF4B001CF83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDE92551844AF4B001CF83A /* Main.storyboard */; };
+		DFDE925A1844AF4B001CF83A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDE92591844AF4B001CF83A /* ViewController.m */; };
+		DFDE925C1844AF4B001CF83A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDE925B1844AF4B001CF83A /* Images.xcassets */; };
+		DFDE92631844AF4B001CF83A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE92621844AF4B001CF83A /* XCTest.framework */; };
+		DFDE92641844AF4B001CF83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE92431844AF4B001CF83A /* Foundation.framework */; };
+		DFDE92651844AF4B001CF83A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE92471844AF4B001CF83A /* UIKit.framework */; };
+		DFDE926D1844AF4B001CF83A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFDE926B1844AF4B001CF83A /* InfoPlist.strings */; };
+		DFDE926F1844AF4B001CF83A /* flipEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDE926E1844AF4B001CF83A /* flipEffectTests.m */; };
+		DFDE927A1844B007001CF83A /* WUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDE92791844B007001CF83A /* WUIImage.m */; };
+		DFDE927C1844B1F2001CF83A /* front@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDE927B1844B1F2001CF83A /* front@2x.jpg */; };
+		DFDE927F1844D3F2001CF83A /* CMSCoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDE927D1844D3F2001CF83A /* CMSCoinView.m */; };
+		DFDE92C218463627001CF83A /* Skull_Hd_640x960_230@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDE92C118463627001CF83A /* Skull_Hd_640x960_230@2x.jpg */; };
+		DFDE92C418463765001CF83A /* iphone-4-wallpaper-640x960-71@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDE92C318463765001CF83A /* iphone-4-wallpaper-640x960-71@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDE92661844AF4B001CF83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDE92381844AF4B001CF83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDE923F1844AF4B001CF83A;
+			remoteInfo = flipEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFDE92401844AF4B001CF83A /* flipEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flipEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDE92431844AF4B001CF83A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFDE92451844AF4B001CF83A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFDE92471844AF4B001CF83A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFDE924B1844AF4B001CF83A /* flipEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flipEffect-Info.plist"; sourceTree = "<group>"; };
+		DFDE924D1844AF4B001CF83A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFDE924F1844AF4B001CF83A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFDE92511844AF4B001CF83A /* flipEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flipEffect-Prefix.pch"; sourceTree = "<group>"; };
+		DFDE92521844AF4B001CF83A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFDE92531844AF4B001CF83A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFDE92561844AF4B001CF83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFDE92581844AF4B001CF83A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFDE92591844AF4B001CF83A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFDE925B1844AF4B001CF83A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFDE92611844AF4B001CF83A /* flipEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flipEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDE92621844AF4B001CF83A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFDE926A1844AF4B001CF83A /* flipEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flipEffectTests-Info.plist"; sourceTree = "<group>"; };
+		DFDE926C1844AF4B001CF83A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFDE926E1844AF4B001CF83A /* flipEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flipEffectTests.m; sourceTree = "<group>"; };
+		DFDE92781844B007001CF83A /* WUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUIImage.h; sourceTree = "<group>"; };
+		DFDE92791844B007001CF83A /* WUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUIImage.m; sourceTree = "<group>"; };
+		DFDE927B1844B1F2001CF83A /* front@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "front@2x.jpg"; sourceTree = "<group>"; };
+		DFDE927D1844D3F2001CF83A /* CMSCoinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSCoinView.m; sourceTree = "<group>"; };
+		DFDE927E1844D3F2001CF83A /* CMSCoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSCoinView.h; sourceTree = "<group>"; };
+		DFDE92C118463627001CF83A /* Skull_Hd_640x960_230@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Skull_Hd_640x960_230@2x.jpg"; sourceTree = "<group>"; };
+		DFDE92C318463765001CF83A /* iphone-4-wallpaper-640x960-71@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-4-wallpaper-640x960-71@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDE923D1844AF4B001CF83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDE92461844AF4B001CF83A /* CoreGraphics.framework in Frameworks */,
+				DFDE92481844AF4B001CF83A /* UIKit.framework in Frameworks */,
+				DFDE92441844AF4B001CF83A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDE925E1844AF4B001CF83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDE92631844AF4B001CF83A /* XCTest.framework in Frameworks */,
+				DFDE92651844AF4B001CF83A /* UIKit.framework in Frameworks */,
+				DFDE92641844AF4B001CF83A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDE92371844AF4B001CF83A = {
+			isa = PBXGroup;
+			children = (
+				DFDE92491844AF4B001CF83A /* flipEffect */,
+				DFDE92681844AF4B001CF83A /* flipEffectTests */,
+				DFDE92421844AF4B001CF83A /* Frameworks */,
+				DFDE92411844AF4B001CF83A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDE92411844AF4B001CF83A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE92401844AF4B001CF83A /* flipEffect.app */,
+				DFDE92611844AF4B001CF83A /* flipEffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDE92421844AF4B001CF83A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE92431844AF4B001CF83A /* Foundation.framework */,
+				DFDE92451844AF4B001CF83A /* CoreGraphics.framework */,
+				DFDE92471844AF4B001CF83A /* UIKit.framework */,
+				DFDE92621844AF4B001CF83A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFDE92491844AF4B001CF83A /* flipEffect */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE92521844AF4B001CF83A /* AppDelegate.h */,
+				DFDE92531844AF4B001CF83A /* AppDelegate.m */,
+				DFDE92781844B007001CF83A /* WUIImage.h */,
+				DFDE92791844B007001CF83A /* WUIImage.m */,
+				DFDE927D1844D3F2001CF83A /* CMSCoinView.m */,
+				DFDE927E1844D3F2001CF83A /* CMSCoinView.h */,
+				DFDE92551844AF4B001CF83A /* Main.storyboard */,
+				DFDE92581844AF4B001CF83A /* ViewController.h */,
+				DFDE92591844AF4B001CF83A /* ViewController.m */,
+				DFDE925B1844AF4B001CF83A /* Images.xcassets */,
+				DFDE924A1844AF4B001CF83A /* Supporting Files */,
+			);
+			path = flipEffect;
+			sourceTree = "<group>";
+		};
+		DFDE924A1844AF4B001CF83A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE927B1844B1F2001CF83A /* front@2x.jpg */,
+				DFDE92C318463765001CF83A /* iphone-4-wallpaper-640x960-71@2x.jpg */,
+				DFDE92C118463627001CF83A /* Skull_Hd_640x960_230@2x.jpg */,
+				DFDE924B1844AF4B001CF83A /* flipEffect-Info.plist */,
+				DFDE924C1844AF4B001CF83A /* InfoPlist.strings */,
+				DFDE924F1844AF4B001CF83A /* main.m */,
+				DFDE92511844AF4B001CF83A /* flipEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFDE92681844AF4B001CF83A /* flipEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE926E1844AF4B001CF83A /* flipEffectTests.m */,
+				DFDE92691844AF4B001CF83A /* Supporting Files */,
+			);
+			path = flipEffectTests;
+			sourceTree = "<group>";
+		};
+		DFDE92691844AF4B001CF83A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE926A1844AF4B001CF83A /* flipEffectTests-Info.plist */,
+				DFDE926B1844AF4B001CF83A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDE923F1844AF4B001CF83A /* flipEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDE92721844AF4B001CF83A /* Build configuration list for PBXNativeTarget "flipEffect" */;
+			buildPhases = (
+				DFDE923C1844AF4B001CF83A /* Sources */,
+				DFDE923D1844AF4B001CF83A /* Frameworks */,
+				DFDE923E1844AF4B001CF83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flipEffect;
+			productName = flipEffect;
+			productReference = DFDE92401844AF4B001CF83A /* flipEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFDE92601844AF4B001CF83A /* flipEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDE92751844AF4B001CF83A /* Build configuration list for PBXNativeTarget "flipEffectTests" */;
+			buildPhases = (
+				DFDE925D1844AF4B001CF83A /* Sources */,
+				DFDE925E1844AF4B001CF83A /* Frameworks */,
+				DFDE925F1844AF4B001CF83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDE92671844AF4B001CF83A /* PBXTargetDependency */,
+			);
+			name = flipEffectTests;
+			productName = flipEffectTests;
+			productReference = DFDE92611844AF4B001CF83A /* flipEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDE92381844AF4B001CF83A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = bilibala.net;
+				TargetAttributes = {
+					DFDE92601844AF4B001CF83A = {
+						TestTargetID = DFDE923F1844AF4B001CF83A;
+					};
+				};
+			};
+			buildConfigurationList = DFDE923B1844AF4B001CF83A /* Build configuration list for PBXProject "flipEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFDE92371844AF4B001CF83A;
+			productRefGroup = DFDE92411844AF4B001CF83A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDE923F1844AF4B001CF83A /* flipEffect */,
+				DFDE92601844AF4B001CF83A /* flipEffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDE923E1844AF4B001CF83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDE92C418463765001CF83A /* iphone-4-wallpaper-640x960-71@2x.jpg in Resources */,
+				DFDE92C218463627001CF83A /* Skull_Hd_640x960_230@2x.jpg in Resources */,
+				DFDE925C1844AF4B001CF83A /* Images.xcassets in Resources */,
+				DFDE927C1844B1F2001CF83A /* front@2x.jpg in Resources */,
+				DFDE924E1844AF4B001CF83A /* InfoPlist.strings in Resources */,
+				DFDE92571844AF4B001CF83A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDE925F1844AF4B001CF83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDE926D1844AF4B001CF83A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDE923C1844AF4B001CF83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDE925A1844AF4B001CF83A /* ViewController.m in Sources */,
+				DFDE927A1844B007001CF83A /* WUIImage.m in Sources */,
+				DFDE92541844AF4B001CF83A /* AppDelegate.m in Sources */,
+				DFDE92501844AF4B001CF83A /* main.m in Sources */,
+				DFDE927F1844D3F2001CF83A /* CMSCoinView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDE925D1844AF4B001CF83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDE926F1844AF4B001CF83A /* flipEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDE92671844AF4B001CF83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDE923F1844AF4B001CF83A /* flipEffect */;
+			targetProxy = DFDE92661844AF4B001CF83A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFDE924C1844AF4B001CF83A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDE924D1844AF4B001CF83A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFDE92551844AF4B001CF83A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDE92561844AF4B001CF83A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFDE926B1844AF4B001CF83A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDE926C1844AF4B001CF83A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFDE92701844AF4B001CF83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFDE92711844AF4B001CF83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFDE92731844AF4B001CF83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flipEffect/flipEffect-Prefix.pch";
+				INFOPLIST_FILE = "flipEffect/flipEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFDE92741844AF4B001CF83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flipEffect/flipEffect-Prefix.pch";
+				INFOPLIST_FILE = "flipEffect/flipEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFDE92761844AF4B001CF83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flipEffect.app/flipEffect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flipEffect/flipEffect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "flipEffectTests/flipEffectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFDE92771844AF4B001CF83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flipEffect.app/flipEffect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flipEffect/flipEffect-Prefix.pch";
+				INFOPLIST_FILE = "flipEffectTests/flipEffectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDE923B1844AF4B001CF83A /* Build configuration list for PBXProject "flipEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDE92701844AF4B001CF83A /* Debug */,
+				DFDE92711844AF4B001CF83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDE92721844AF4B001CF83A /* Build configuration list for PBXNativeTarget "flipEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDE92731844AF4B001CF83A /* Debug */,
+				DFDE92741844AF4B001CF83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFDE92751844AF4B001CF83A /* Build configuration list for PBXNativeTarget "flipEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDE92761844AF4B001CF83A /* Debug */,
+				DFDE92771844AF4B001CF83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDE92381844AF4B001CF83A /* Project object */;
+}
